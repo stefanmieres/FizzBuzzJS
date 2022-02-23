@@ -1,0 +1,2 @@
+# JsSiteTemplate
+Mini JS application.
