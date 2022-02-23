@@ -63,3 +63,18 @@ code[class*="language-"],
     word-break: break-all;
     word-wrap: break-word;
 }
+
+.Fizz{
+color:red;
+
+}
+
+.Buzz{
+
+    color: green;
+}
+
+.FizzBuzz{
+    color: orange;
+    font-weight: bold;
+}

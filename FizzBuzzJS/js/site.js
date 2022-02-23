@@ -56,10 +56,20 @@ function DisplayArray(fizzbuzz)
         let tableRow = document.importNode(templateRow.content,true);
 
         let rowCols = tableRow.querySelectorAll("td");
+
+        rowCols[0].classList.add(fizzbuzz[index]);
         rowCols[0].textContent = fizzbuzz[index];
+
+        rowCols[1].classList.add(fizzbuzz[index+1]);
         rowCols[1].textContent = fizzbuzz[index+1];
+
+        rowCols[2].classList.add(fizzbuzz[index+2]);
         rowCols[2].textContent = fizzbuzz[index+2];
+
+        rowCols[3].classList.add(fizzbuzz[index+3]);
         rowCols[3].textContent = fizzbuzz[index+3];
+
+        rowCols[4].classList.add(fizzbuzz[index+4]);
         rowCols[4].textContent = fizzbuzz[index+4];
 
         tableBody.appendChild(tableRow);
